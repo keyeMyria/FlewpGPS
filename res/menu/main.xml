@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuSearchDate"
+        android:icon="@drawable/perm_group_calendar"
+        android:showAsAction="always"
+        android:title="@string/search_date"/>
+    
+    <item
+        android:id="@+id/menuStart"
+        android:icon="@drawable/ic_media_play"
+        android:showAsAction="always"
+        android:title="@string/start_text"
+        />
+    
+    <item
+        android:id="@+id/menuStop"
+        android:icon="@drawable/ic_media_stop"
+        android:showAsAction="always"
+        android:title="@string/stop_text"
+        />
+
+    <item
+        android:id="@+id/menuRefresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:showAsAction="always"
+        android:title="@string/refresh_text"
+        />
+    
+</menu>
